@@ -17,5 +17,8 @@ def get_user_input():
     except ValueError:
         print("Invalid input. Please enter numerical values for height and weight.")
 
+    # This keeps the terminal window open until the user decides to close it.
+    input("Press Enter to exit...")
+
 if __name__ == "__main__":
     get_user_input()
